@@ -1,0 +1,35 @@
+{
+  "schema_version": "3.0_busandonggu_pally_trial_v1",
+  "task_slot_id": "26170-B26",
+  "block_id": "26170_B26",
+  "name": "대한성공회 부산주교좌성당",
+  "category": "RELIGIOUS_HERITAGE",
+  "district": "부산광역시 중구",
+  "road_address": "부산광역시 중구 대청로99번길 5-1",
+  "coordinates": [129.0306293, 35.1034638],
+  "orientation_deg": 0.0,
+  "reference_url": "https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79,05730000,21&pageNo=1_1_1_1",
+  "verified_at": "2026-11-14T13:31:27.387+09:00",
+  "verification_evidence": [
+    {"url":"https://www.data.go.kr/data/15028854/fileData.do","title":"부산광역시_도로명주소 정보 (공공데이터포털; 다운로드한 데이터 행)","read_at":"2026-11-14T13:10+09:00","fact_checked":"기존에 읽은 다운로드 데이터 행의 좌표: 129.0306293, 35.1034638; 현재 랜딩 페이지는 데이터셋명만 확인"},
+    {"url":"https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79,05730000,21&pageNo=1_1_1_1","title":"국가유산포털 대한성공회 부산주교좌성당 항목","read_at":"2026-11-14T13:31:27.387+09:00","fact_checked":"공식 명칭, 중구 대청로99번길 5-1, 1924년 신축·1964년 증축"},
+    {"url":"https://www.bsjunggu.go.kr/tour/index.junggu?menuCd=DOM_000000204001001002","title":"부산광역시 중구 등록 국가유산: 대한성공회 부산주교좌성당","read_at":"2026-11-14T13:31:09.188+09:00","fact_checked":"명칭, 중구 대청로 99번길 5-1(대청동4가 94), 건축 설명"},
+    {"url":"https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859683289301498&ctptNo=4412105730000","title":"국가유산 디지털 서비스 항목","read_at":"2026-11-14T13:31:13.109+09:00","fact_checked":"공식 명칭, 등록문화유산, 1924년 신축·1964년 증축, 건축 설명"}
+  ],
+  "references": [
+    {"url":"https://www.data.go.kr/data/15028854/fileData.do","title":"부산광역시_도로명주소 정보 (공공데이터포털; 다운로드한 데이터 행)","read_at":"2026-11-14T13:10+09:00","fact_checked":"기존에 읽은 다운로드 데이터 행의 좌표: 129.0306293, 35.1034638; 현재 랜딩 페이지는 데이터셋명만 확인"},
+    {"url":"https://www.heritage.go.kr/heri/cul/culSelectDetail.do?VdkVgwKey=79,05730000,21&pageNo=1_1_1_1","title":"국가유산포털 대한성공회 부산주교좌성당 항목","read_at":"2026-11-14T13:31:27.387+09:00","fact_checked":"공식 명칭, 중구 대청로99번길 5-1, 1924년 신축·1964년 증축"},
+    {"url":"https://www.bsjunggu.go.kr/tour/index.junggu?menuCd=DOM_000000204001001002","title":"부산광역시 중구 등록 국가유산: 대한성공회 부산주교좌성당","read_at":"2026-11-14T13:31:09.188+09:00","fact_checked":"명칭, 중구 대청로 99번길 5-1(대청동4가 94), 건축 설명"},
+    {"url":"https://digital.khs.go.kr/heri/heriDetail.do?ctptUid=13898859683289301498&ctptNo=4412105730000","title":"국가유산 디지털 서비스 항목","read_at":"2026-11-14T13:31:13.109+09:00","fact_checked":"공식 명칭, 등록문화유산, 1924년 신축·1964년 증축, 건축 설명"}
+  ],
+  "lod_budget":{"lod3_triangles":[10000,14000],"lod3_max_bytes":768000,"lod2_triangles":[1200,1800],"lod2_max_bytes":71680,"texture_max_bytes":102400,"package_max_bytes":972800},
+  "files":{"model_lod3.gltf":{"triangles":12288,"bytes":373346},"model_lod2.gltf":{"triangles":1536,"bytes":56167},"texture_atlas.webp":{"bytes":2688,"size_px":1024,"format":"WebP quality 85 method 6"}},
+  "package_total_bytes":432201,
+  "ground":{"mode":"snap_to_terrain","origin_y_m":0.0},
+  "lod_switch_distance":200.0,
+  "seed_comparison":{"seed_coordinates":[129.036,35.1125],"official_coordinates":[129.0306293,35.1034638],"finding":"국가유산포털과 중구청 공식 자료는 소재지를 부산광역시 중구 대청로99번길 5-1로 기록한다. 시험의 동구 표기 및 seed 좌표(129.036, 35.1125)와 다르므로 공식 소재지 좌표를 사용했다."},
+  "spec_dimensions_m":{"official_facts":"공식 소재지는 부산광역시 중구이며, 시험 제목의 동구와 다르다. 모델 치수는 실측 도면이 아닌 설명용 추정치다.","model_dimensions":"illustrative; not from surveyed plans"},
+  "cue_optimization":{"index_dtype_lod3":"uint16","index_dtype_lod2":"uint16","normal_buffer":"omitted","license_note":"Procedural geometry and textures; no third-party images, maps, or footprints used."},
+  "bbox_local_m":{"min":[-9.5,0.0,-6.099999904632568],"max":[9.0,20.0,10.0]},
+  "generation":{"generator":"Pally procedural builder","execution_code_in_package":false}
+}
