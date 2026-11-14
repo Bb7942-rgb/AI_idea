@@ -1,0 +1,101 @@
+{
+  "schema_version": "3.0_busandonggu_pally_trial_v1",
+  "task_slot_id": "26170-B36",
+  "block_id": "26170_B36",
+  "name": "동구 국민체육문예센터",
+  "category": "CIVIC_SPORTS",
+  "district": "부산광역시 동구",
+  "road_address": "부산광역시 동구 구청로 8",
+  "coordinates": [
+    129.0447649,
+    35.1289636
+  ],
+  "orientation_deg": 0.0,
+  "reference_url": "https://www.bsdgsportsart.or.kr/www/11",
+  "verified_at": "2026-11-14T13:31:16.743+09:00",
+  "verification_evidence": [
+    {
+      "url": "https://www.data.go.kr/data/15028854/fileData.do",
+      "title": "부산광역시_도로명주소 정보 (공공데이터포털; 다운로드한 데이터 행)",
+      "read_at": "2026-11-14T13:10+09:00",
+      "fact_checked": "기존에 읽은 다운로드 데이터 행의 좌표: 129.0447649, 35.1289636; 현재 랜딩 페이지는 데이터셋명만 확인"
+    },
+    {
+      "url": "https://www.bsdgsportsart.or.kr/www/11",
+      "title": "동구국민체육문예센터 시설현황 (운영기관)",
+      "read_at": "2026-11-14T13:31:16.105+09:00",
+      "fact_checked": "시설명, 동구 구청로 8, 지하1층·지상4층, 현재 층별 시설 안내"
+    },
+    {
+      "url": "https://www.bsdonggu.go.kr/board/view.donggu?boardId=BBS_0000202&dataSid=5001746&menuCd=DOM_000000104008001001&paging=ok&startPage=1",
+      "title": "동구청 체육시설 상세: 동구 국민체육문예센터 (게시일 2018-01-08)",
+      "read_at": "2026-11-14T13:31:16.743+09:00",
+      "fact_checked": "주소 구청로 8; 지상5층 156.20㎡에 에어컨 실외기·태양광 패널 기록, 지상1~4층과 지하1층 배치"
+    },
+    {
+      "url": "https://www.bsdonggu.go.kr/index.donggu?deptCD=1035003000000&menuCd=DOM_000000105002001001",
+      "title": "동구청 체육녹지과 부서·업무 안내",
+      "read_at": "2026-11-14T13:31:14.490+09:00",
+      "fact_checked": "국민체육문예센터 시설관리·운영관리 담당 업무를 열거"
+    }
+  ],
+  "references": [
+    {
+      "url": "https://www.data.go.kr/data/15028854/fileData.do",
+      "title": "부산광역시_도로명주소 정보 (공공데이터포털; 다운로드한 데이터 행)",
+      "read_at": "2026-11-14T13:10+09:00",
+      "fact_checked": "기존에 읽은 다운로드 데이터 행의 좌표: 129.0447649, 35.1289636; 현재 랜딩 페이지는 데이터셋명만 확인"
+    },
+    {
+      "url": "https://www.bsdgsportsart.or.kr/www/11",
+      "title": "동구국민체육문예센터 시설현황 (운영기관)",
+      "read_at": "2026-11-14T13:31:16.105+09:00",
+      "fact_checked": "시설명, 동구 구청로 8, 지하1층·지상4층, 현재 층별 시설 안내"
+    },
+    {
+      "url": "https://www.bsdonggu.go.kr/board/view.donggu?boardId=BBS_0000202&dataSid=5001746&menuCd=DOM_000000104008001001&paging=ok&startPage=1",
+      "title": "동구청 체육시설 상세: 동구 국민체육문예센터 (게시일 2018-01-08)",
+      "read_at": "2026-11-14T13:31:16.743+09:00",
+      "fact_checked": "주소 구청로 8; 지상5층 156.20㎡에 에어컨 실외기·태양광 패널 기록, 지상1~4층과 지하1층 배치"
+    },
+    {
+      "url": "https://www.bsdonggu.go.kr/index.donggu?deptCD=1035003000000&menuCd=DOM_000000105002001001",
+      "title": "동구청 체육녹지과 부서·업무 안내",
+      "read_at": "2026-11-14T13:31:14.490+09:00",
+      "fact_checked": "국민체육문예센터 시설관리·운영관리 담당 업무를 열거"
+    }
+  ],
+  "lod_budget": {
+    "lod3_triangles": [10000, 14000],
+    "lod3_max_bytes": 768000,
+    "lod2_triangles": [1200, 1800],
+    "lod2_max_bytes": 71680,
+    "texture_max_bytes": 102400,
+    "package_max_bytes": 972800
+  },
+  "files": {
+    "model_lod3.gltf": {"triangles": 12288, "bytes": 380739},
+    "model_lod2.gltf": {"triangles": 1536, "bytes": 59809},
+    "texture_atlas.webp": {"bytes": 2688, "size_px": 1024, "format": "WebP quality 85 method 6"}
+  },
+  "package_total_bytes": 443236,
+  "ground": {"mode": "snap_to_terrain", "origin_y_m": 0.0},
+  "lod_switch_distance": 200.0,
+  "seed_comparison": {
+    "seed_coordinates": [129.045, 35.128],
+    "official_coordinates": [129.0447649, 35.1289636],
+    "finding": "운영기관 자료는 지상4층·지하1층으로 안내한다. 동구청의 2018-01-08 자료에는 지상5층 156.20㎡의 에어컨 실외기·태양광 패널이 기록되어 있어 층 표기가 다르다. 모델은 지상4개 주요층을 표현하고 별도 사용층인 5층은 확인되지 않아 추가하지 않았다."
+  },
+  "spec_dimensions_m": {
+    "official_facts": "운영기관 현행 시설표는 지상4층으로 표기하고, 동구청 2018 자료는 지상5층 설비를 기록한다. 상충을 해소할 최신 도면은 확인되지 않았다.",
+    "model_dimensions": "illustrative; not from surveyed plans"
+  },
+  "cue_optimization": {
+    "index_dtype_lod3": "uint16",
+    "index_dtype_lod2": "uint16",
+    "normal_buffer": "omitted",
+    "license_note": "Procedural geometry and textures; no third-party images, maps, or footprints used."
+  },
+  "bbox_local_m": {"min": [-19.0, 0.0, -14.0], "max": [19.0, 18.0, 17.0]},
+  "generation": {"generator": "Pally procedural builder", "execution_code_in_package": false}
+}
