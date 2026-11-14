@@ -1,0 +1,37 @@
+{
+  "schema_version": "3.0_busandonggu_pally_trial_v1",
+  "task_slot_id": "26170-B44",
+  "block_id": "26170_B44",
+  "name": "초량이바구 작은도서관 (센터 2층)",
+  "category": "CIVIC_LIBRARY",
+  "district": "부산광역시 동구",
+  "road_address": "부산광역시 동구 초량중로 113, 센터 2층",
+  "coordinates": [129.0405261, 35.1217356],
+  "orientation_deg": 0.0,
+  "reference_url": "https://www.bsdonggu.go.kr/ebagu/index.donggu?menuCd=DOM_000004001003000000",
+  "verified_at": "2026-11-14T13:31:23.295+09:00",
+  "verification_evidence": [
+    {"url":"https://www.data.go.kr/data/15028854/fileData.do","title":"부산광역시_도로명주소 정보 (공공데이터포털; 다운로드한 데이터 행)","read_at":"2026-11-14T13:10+09:00","fact_checked":"기존에 읽은 다운로드 데이터 행의 좌표: 129.0405261, 35.1217356; 현재 랜딩 페이지는 데이터셋명만 확인"},
+    {"url":"https://www.bsdonggu.go.kr/board/list.donggu?boardId=BBS_0000200&contentsSid=1776&menuCd=DOM_000000801004001000","title":"부산광역시 동구도서관 작은도서관 목록","read_at":"2026-11-14T13:31:22.659+09:00","fact_checked":"초량이바구 작은도서관, 초량중로 113, 이바구복합문화체육센터 2층"},
+    {"url":"https://www.bsdonggu.go.kr/ebagu/index.donggu?menuCd=DOM_000004001003000000","title":"이바구복합문화체육센터 안내","read_at":"2026-11-14T13:31:14.192+09:00","fact_checked":"초량중로 113, 지하1층·지상9층, 주요시설에 작은도서관 포함"},
+    {"url":"https://www.bsdonggu.go.kr/ebagu/index.donggu?menuCd=DOM_000004001004000000","title":"이바구복합문화체육센터 층별시설안내","read_at":"2026-11-14T13:31:17.119+09:00","fact_checked":"2층에 초량이바구 작은도서관 배치"},
+    {"url":"https://www.mcst.go.kr/slibrary/library/detail/2410280003","title":"문화체육관광부 작은도서관 상세: 초량이바구 작은도서관","read_at":"2026-11-14T13:31:23.295+09:00","fact_checked":"도서관명, 초량중로 113, 2층 주소"}
+  ],
+  "references": [
+    {"url":"https://www.data.go.kr/data/15028854/fileData.do","title":"부산광역시_도로명주소 정보 (공공데이터포털; 다운로드한 데이터 행)","read_at":"2026-11-14T13:10+09:00","fact_checked":"기존에 읽은 다운로드 데이터 행의 좌표: 129.0405261, 35.1217356; 현재 랜딩 페이지는 데이터셋명만 확인"},
+    {"url":"https://www.bsdonggu.go.kr/board/list.donggu?boardId=BBS_0000200&contentsSid=1776&menuCd=DOM_000000801004001000","title":"부산광역시 동구도서관 작은도서관 목록","read_at":"2026-11-14T13:31:22.659+09:00","fact_checked":"초량이바구 작은도서관, 초량중로 113, 이바구복합문화체육센터 2층"},
+    {"url":"https://www.bsdonggu.go.kr/ebagu/index.donggu?menuCd=DOM_000004001003000000","title":"이바구복합문화체육센터 안내","read_at":"2026-11-14T13:31:14.192+09:00","fact_checked":"초량중로 113, 지하1층·지상9층, 주요시설에 작은도서관 포함"},
+    {"url":"https://www.bsdonggu.go.kr/ebagu/index.donggu?menuCd=DOM_000004001004000000","title":"이바구복합문화체육센터 층별시설안내","read_at":"2026-11-14T13:31:17.119+09:00","fact_checked":"2층에 초량이바구 작은도서관 배치"},
+    {"url":"https://www.mcst.go.kr/slibrary/library/detail/2410280003","title":"문화체육관광부 작은도서관 상세: 초량이바구 작은도서관","read_at":"2026-11-14T13:31:23.295+09:00","fact_checked":"도서관명, 초량중로 113, 2층 주소"}
+  ],
+  "lod_budget":{"lod3_triangles":[10000,14000],"lod3_max_bytes":768000,"lod2_triangles":[1200,1800],"lod2_max_bytes":71680,"texture_max_bytes":102400,"package_max_bytes":972800},
+  "files":{"model_lod3.gltf":{"triangles":12288,"bytes":390730},"model_lod2.gltf":{"triangles":1536,"bytes":65859},"texture_atlas.webp":{"bytes":2688,"size_px":1024,"format":"WebP quality 85 method 6"}},
+  "package_total_bytes":459277,
+  "ground":{"mode":"snap_to_terrain","origin_y_m":0.0},
+  "lod_switch_distance":200.0,
+  "seed_comparison":{"seed_coordinates":[129.0368,35.116],"official_coordinates":[129.0405261,35.1217356],"finding":"동구청 도서관 목록과 문화체육관광부 상세는 현행 이름을 초량이바구 작은도서관으로 표기하고 초량중로 113의 2층으로 안내한다. 동구청 센터 안내는 이바구복합문화체육센터가 지하1층·지상9층이라고 기록한다. 모델은 도서관 전용 실내가 아니라 이 도서관이 위치한 전체 센터 건물을 표현하며, seed 좌표와 달라 공식 주소 데이터의 좌표를 사용했다."},
+  "spec_dimensions_m":{"official_facts":"공식 센터 안내는 지하1층·지상9층, 도서관 층별 안내는 2층이다. 모델 치수는 실측 도면이 아닌 설명용 추정치.","model_dimensions":"illustrative; not from surveyed plans"},
+  "cue_optimization":{"index_dtype_lod3":"uint16","index_dtype_lod2":"uint16","normal_buffer":"omitted","license_note":"Procedural geometry and textures; no third-party images, maps, or footprints used."},
+  "bbox_local_m":{"min":[-14.0,0.0,-10.0],"max":[14.0,36.0,12.0]},
+  "generation":{"generator":"Pally procedural builder","execution_code_in_package":false}
+}
